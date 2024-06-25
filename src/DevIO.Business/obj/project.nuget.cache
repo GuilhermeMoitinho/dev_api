@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NUYExSzX2dA=",
+  "success": true,
+  "projectFilePath": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\DevIO.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guilh\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512"
+  ],
+  "logs": []
+}

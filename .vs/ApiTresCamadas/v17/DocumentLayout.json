@@ -1,0 +1,597 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F863F98-2C09-4753-B6FF-2479EC9222C3}|src\\DevIO.Data\\DevIO.Data.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.data\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F863F98-2C09-4753-B6FF-2479EC9222C3}|src\\DevIO.Data\\DevIO.Data.csproj|solutionrelative:src\\devio.data\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.business\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.business\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.business\\services\\fornecedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\services\\fornecedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F863F98-2C09-4753-B6FF-2479EC9222C3}|src\\DevIO.Data\\DevIO.Data.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.data\\uow\\unityofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F863F98-2C09-4753-B6FF-2479EC9222C3}|src\\DevIO.Data\\DevIO.Data.csproj|solutionrelative:src\\devio.data\\uow\\unityofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.business\\interfaces\\iunityofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\interfaces\\iunityofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E240217-8027-4923-B567-7DDE567F78E4}|src\\DevIO.Api\\DevIO.Api.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E240217-8027-4923-B567-7DDE567F78E4}|src\\DevIO.Api\\DevIO.Api.csproj|solutionrelative:src\\devio.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E240217-8027-4923-B567-7DDE567F78E4}|src\\DevIO.Api\\DevIO.Api.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8E240217-8027-4923-B567-7DDE567F78E4}|src\\DevIO.Api\\DevIO.Api.csproj|solutionrelative:src\\devio.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F863F98-2C09-4753-B6FF-2479EC9222C3}|src\\DevIO.Data\\DevIO.Data.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.data\\mappings\\produtomapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F863F98-2C09-4753-B6FF-2479EC9222C3}|src\\DevIO.Data\\DevIO.Data.csproj|solutionrelative:src\\devio.data\\mappings\\produtomapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F863F98-2C09-4753-B6FF-2479EC9222C3}|src\\DevIO.Data\\DevIO.Data.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.data\\mappings\\fornecedormapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F863F98-2C09-4753-B6FF-2479EC9222C3}|src\\DevIO.Data\\DevIO.Data.csproj|solutionrelative:src\\devio.data\\mappings\\fornecedormapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E240217-8027-4923-B567-7DDE567F78E4}|src\\DevIO.Api\\DevIO.Api.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.api\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E240217-8027-4923-B567-7DDE567F78E4}|src\\DevIO.Api\\DevIO.Api.csproj|solutionrelative:src\\devio.api\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\guilh\\AppData\\Local\\Temp\\ets3rf3u..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\guilh\\AppData\\Local\\Temp\\tvmqdtpk..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F863F98-2C09-4753-B6FF-2479EC9222C3}|src\\DevIO.Data\\DevIO.Data.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.data\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F863F98-2C09-4753-B6FF-2479EC9222C3}|src\\DevIO.Data\\DevIO.Data.csproj|solutionrelative:src\\devio.data\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.business\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.business\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E240217-8027-4923-B567-7DDE567F78E4}|src\\DevIO.Api\\DevIO.Api.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8E240217-8027-4923-B567-7DDE567F78E4}|src\\DevIO.Api\\DevIO.Api.csproj|solutionrelative:src\\devio.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.business\\models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F863F98-2C09-4753-B6FF-2479EC9222C3}|src\\DevIO.Data\\DevIO.Data.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.data\\mappings\\enderecomapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F863F98-2C09-4753-B6FF-2479EC9222C3}|src\\DevIO.Data\\DevIO.Data.csproj|solutionrelative:src\\devio.data\\mappings\\enderecomapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.business\\models\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\models\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.business\\models\\validations\\documentos\\docsvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\models\\validations\\documentos\\docsvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.business\\models\\validations\\fornecedorvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\models\\validations\\fornecedorvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.business\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.business\\interfaces\\inotificador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\interfaces\\inotificador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.business\\notificacoes\\notificador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\notificacoes\\notificador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.business\\notificacoes\\notificacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\notificacoes\\notificacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.business\\interfaces\\ifornecedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\interfaces\\ifornecedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.business\\interfaces\\ifornecedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\interfaces\\ifornecedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.business\\interfaces\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\interfaces\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.business\\interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.business\\models\\validations\\enderecovalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\models\\validations\\enderecovalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.business\\models\\validations\\produtovalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\models\\validations\\produtovalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\guilh\\.nuget\\packages\\fluentvalidation\\11.9.2\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\estudos\\tres_camadas\\apitrescamadas\\src\\devio.business\\devio.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C96AAD38-9979-49B9-BDA3-35AEE949F2B4}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\devio.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\guilh\\AppData\\Local\\Temp\\tvmqdtpk..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\guilh\\AppData\\Local\\Temp\\ets3rf3u..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnityOfWork.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Data\\UoW\\UnityOfWork.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Data\\UoW\\UnityOfWork.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Data\\UoW\\UnityOfWork.cs",
+              "RelativeToolTip": "src\\DevIO.Data\\UoW\\UnityOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T20:34:53.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUnityOfWork.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Interfaces\\IUnityOfWork.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Business\\Interfaces\\IUnityOfWork.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Interfaces\\IUnityOfWork.cs",
+              "RelativeToolTip": "src\\DevIO.Business\\Interfaces\\IUnityOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T20:34:00.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Data\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Data\\Repository\\Repository.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Data\\Repository\\Repository.cs",
+              "RelativeToolTip": "src\\DevIO.Data\\Repository\\Repository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T20:27:39.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SQLQuery4.sql ",
+              "DocumentMoniker": "C:\\Users\\guilh\\AppData\\Local\\Temp\\ets3rf3u..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\guilh\\AppData\\Local\\Temp\\ets3rf3u..sql",
+              "ToolTip": "SQLQuery4.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-25T20:07:53.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SQLQuery3.sql ",
+              "DocumentMoniker": "C:\\Users\\guilh\\AppData\\Local\\Temp\\tvmqdtpk..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\guilh\\AppData\\Local\\Temp\\tvmqdtpk..sql",
+              "ToolTip": "SQLQuery3.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-25T20:01:55.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Api\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Api\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Api\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "src\\DevIO.Api\\Controllers\\ValuesController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T19:50:59.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Api\\Program.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Api\\Program.cs",
+              "RelativeToolTip": "src\\DevIO.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:48:13.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\DevIO.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\DevIO.Api\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAuwCgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-25T18:48:07.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\DevIO.Api\\appsettings.json",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Api\\appsettings.json",
+              "RelativeToolTip": "src\\DevIO.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-25T18:36:56.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EnderecoMapping.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Data\\Mappings\\EnderecoMapping.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Data\\Mappings\\EnderecoMapping.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Data\\Mappings\\EnderecoMapping.cs",
+              "RelativeToolTip": "src\\DevIO.Data\\Mappings\\EnderecoMapping.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAABBwAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T17:34:23.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FornecedorMapping.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Data\\Mappings\\FornecedorMapping.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Data\\Mappings\\FornecedorMapping.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Data\\Mappings\\FornecedorMapping.cs",
+              "RelativeToolTip": "src\\DevIO.Data\\Mappings\\FornecedorMapping.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T17:31:44.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProdutoMapping.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Data\\Mappings\\ProdutoMapping.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Data\\Mappings\\ProdutoMapping.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Data\\Mappings\\ProdutoMapping.cs",
+              "RelativeToolTip": "src\\DevIO.Data\\Mappings\\ProdutoMapping.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwB8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T17:26:13.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Data\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Data\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Data\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "src\\DevIO.Data\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAQwCwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T14:46:34.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Notificador.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Notificacoes\\Notificador.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Business\\Notificacoes\\Notificador.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Notificacoes\\Notificador.cs",
+              "RelativeToolTip": "src\\DevIO.Business\\Notificacoes\\Notificador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T13:42:23.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "INotificador.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Interfaces\\INotificador.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Business\\Interfaces\\INotificador.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Interfaces\\INotificador.cs",
+              "RelativeToolTip": "src\\DevIO.Business\\Interfaces\\INotificador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T13:40:53.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Notificacao.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Notificacoes\\Notificacao.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Business\\Notificacoes\\Notificacao.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Notificacoes\\Notificacao.cs",
+              "RelativeToolTip": "src\\DevIO.Business\\Notificacoes\\Notificacao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T13:38:31.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Services\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Business\\Services\\ProdutoService.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Services\\ProdutoService.cs",
+              "RelativeToolTip": "src\\DevIO.Business\\Services\\ProdutoService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T20:16:23.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FornecedorService.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Services\\FornecedorService.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Business\\Services\\FornecedorService.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Services\\FornecedorService.cs",
+              "RelativeToolTip": "src\\DevIO.Business\\Services\\FornecedorService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T20:07:04.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Services\\BaseService.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Business\\Services\\BaseService.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Services\\BaseService.cs",
+              "RelativeToolTip": "src\\DevIO.Business\\Services\\BaseService.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwCEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T20:06:45.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Endereco.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Models\\Endereco.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Business\\Models\\Endereco.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Models\\Endereco.cs",
+              "RelativeToolTip": "src\\DevIO.Business\\Models\\Endereco.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T18:57:57.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IFornecedorRepository.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Interfaces\\IFornecedorRepository.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Business\\Interfaces\\IFornecedorRepository.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Interfaces\\IFornecedorRepository.cs",
+              "RelativeToolTip": "src\\DevIO.Business\\Interfaces\\IFornecedorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T14:30:40.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IProdutoRepository.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Interfaces\\IProdutoRepository.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Business\\Interfaces\\IProdutoRepository.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Interfaces\\IProdutoRepository.cs",
+              "RelativeToolTip": "src\\DevIO.Business\\Interfaces\\IProdutoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T14:29:44.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Business\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "src\\DevIO.Business\\Interfaces\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T14:22:44.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IProdutoService.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Interfaces\\IProdutoService.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Business\\Interfaces\\IProdutoService.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Interfaces\\IProdutoService.cs",
+              "RelativeToolTip": "src\\DevIO.Business\\Interfaces\\IProdutoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T14:14:10.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IFornecedorService.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Interfaces\\IFornecedorService.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Business\\Interfaces\\IFornecedorService.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Interfaces\\IFornecedorService.cs",
+              "RelativeToolTip": "src\\DevIO.Business\\Interfaces\\IFornecedorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T14:13:35.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DocsValidation.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Models\\Validations\\Documentos\\DocsValidation.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Business\\Models\\Validations\\Documentos\\DocsValidation.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Models\\Validations\\Documentos\\DocsValidation.cs",
+              "RelativeToolTip": "src\\DevIO.Business\\Models\\Validations\\Documentos\\DocsValidation.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAnwCIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T13:49:12.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FornecedorValidation.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Models\\Validations\\FornecedorValidation.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Business\\Models\\Validations\\FornecedorValidation.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Models\\Validations\\FornecedorValidation.cs",
+              "RelativeToolTip": "src\\DevIO.Business\\Models\\Validations\\FornecedorValidation.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAABBwBQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T13:47:14.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EnderecoValidation.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Models\\Validations\\EnderecoValidation.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Business\\Models\\Validations\\EnderecoValidation.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Models\\Validations\\EnderecoValidation.cs",
+              "RelativeToolTip": "src\\DevIO.Business\\Models\\Validations\\EnderecoValidation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAxwCoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T13:46:00.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ProdutoValidation.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Models\\Validations\\ProdutoValidation.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Business\\Models\\Validations\\ProdutoValidation.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Models\\Validations\\ProdutoValidation.cs",
+              "RelativeToolTip": "src\\DevIO.Business\\Models\\Validations\\ProdutoValidation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T13:42:38.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\guilh\\.nuget\\packages\\fluentvalidation\\11.9.2\\README.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\guilh\\.nuget\\packages\\fluentvalidation\\11.9.2\\README.md",
+              "ToolTip": "C:\\Users\\guilh\\.nuget\\packages\\fluentvalidation\\11.9.2\\README.md",
+              "RelativeToolTip": "..\\..\\..\\Users\\guilh\\.nuget\\packages\\fluentvalidation\\11.9.2\\README.md",
+              "ViewState": "AQIAAAgAAAAAAAAAAABRwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-06-21T13:41:46.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Business\\Models\\Produto.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Models\\Produto.cs",
+              "RelativeToolTip": "src\\DevIO.Business\\Models\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T13:34:54.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DevIO.Business.csproj",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\DevIO.Business.csproj",
+              "RelativeDocumentMoniker": "src\\DevIO.Business\\DevIO.Business.csproj",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\DevIO.Business.csproj",
+              "RelativeToolTip": "src\\DevIO.Business\\DevIO.Business.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-21T13:30:55.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Fornecedor.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Models\\Fornecedor.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Business\\Models\\Fornecedor.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Models\\Fornecedor.cs",
+              "RelativeToolTip": "src\\DevIO.Business\\Models\\Fornecedor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T13:29:53.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Models\\Entity.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Business\\Models\\Entity.cs",
+              "ToolTip": "C:\\estudos\\tres_camadas\\ApiTresCamadas\\src\\DevIO.Business\\Models\\Entity.cs",
+              "RelativeToolTip": "src\\DevIO.Business\\Models\\Entity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T13:27:29.713Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\bin\Debug\net8.0\DevIO.Data.deps.json
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\bin\Debug\net8.0\DevIO.Data.dll
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\bin\Debug\net8.0\DevIO.Data.pdb
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\obj\Debug\net8.0\DevIO.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\obj\Debug\net8.0\DevIO.Data.AssemblyInfoInputs.cache
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\obj\Debug\net8.0\DevIO.Data.AssemblyInfo.cs
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\obj\Debug\net8.0\DevIO.Data.csproj.CoreCompileInputs.cache
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\obj\Debug\net8.0\DevIO.Data.dll
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\obj\Debug\net8.0\refint\DevIO.Data.dll
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\obj\Debug\net8.0\DevIO.Data.pdb
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\obj\Debug\net8.0\ref\DevIO.Data.dll
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\bin\Debug\net8.0\DevIO.Business.dll
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\bin\Debug\net8.0\DevIO.Business.pdb
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\obj\Debug\net8.0\DevIO.Data.csproj.AssemblyReference.cache
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\obj\Debug\net8.0\DevIO.Data.csproj.Up2Date
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\bin\Debug\net8.0\DevIO.Data.runtimeconfig.json
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\obj\Debug\net8.0\DevIO.Data.genruntimeconfig.cache
