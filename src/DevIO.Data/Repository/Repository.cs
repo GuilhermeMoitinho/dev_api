@@ -9,11 +9,11 @@ namespace DevIO.Data.Repository
     public abstract class Repository<T> : IRepository<T> where T : Entity, new()
     {
         protected readonly DbSet<T> DbSet;
-        protected readonly AppDbContext _context;
+        protected readonly AppDbContext db;
 
         protected Repository(AppDbContext context)
         {
-            _context = context;
+            db = context;
             DbSet = context.Set<T>();  
         }
 
@@ -49,7 +49,7 @@ namespace DevIO.Data.Repository
 
         public void Dispose()
         {
-            _context.Dispose(); 
+            db.Dispose(); 
         }
     }
 }
