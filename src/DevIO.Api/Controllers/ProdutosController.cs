@@ -3,6 +3,7 @@ using DevIO.Api.ViewModels;
 using DevIO.Business.Interfaces;
 using DevIO.Business.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
 
 namespace DevIO.Api.Controllers
 {
@@ -15,7 +16,9 @@ namespace DevIO.Api.Controllers
 
         public ProdutosController(IProdutoService produtoService, 
                                   IProdutoRepository produtoRepository, 
-                                  IMapper mapper)
+                                  IMapper mapper,
+                                  INotificador notificador)
+                                  : base(notificador)
         {
             _produtoService = produtoService;
             _produtoRepository = produtoRepository;
@@ -27,7 +30,8 @@ namespace DevIO.Api.Controllers
         {
             var produtos = await _produtoRepository.ObterProdutosFornecedores();
 
-            return Ok(_mapper.Map<IEnumerable<ProdutoViewModel>>(produtos));
+            return CustomResponse(HttpStatusCode.OK,
+                                  _mapper.Map<IEnumerable<ProdutoViewModel>>(produtos));
         }
 
         [HttpGet("{id:Guid}")]
@@ -37,7 +41,8 @@ namespace DevIO.Api.Controllers
 
             if (produto is null) return NotFound();
 
-            return Ok(_mapper.Map<ProdutoViewModel>(produto));
+            return CustomResponse(HttpStatusCode.OK,
+                                 _mapper.Map<ProdutoViewModel>(produto));
         }
 
         [HttpPost]
@@ -49,7 +54,7 @@ namespace DevIO.Api.Controllers
 
             await _produtoService.Adicionar(produto);
 
-            return CreatedAtAction(nameof(ObterPorId), new { id = produto.Id }, new { Sucesso = true});
+            return CustomResponse(HttpStatusCode.Created, produtoViewModel);
         }
 
         [HttpPut("{id:Guid}")]
@@ -69,7 +74,7 @@ namespace DevIO.Api.Controllers
 
             await _produtoService.Atualizar(produtoAtualizacao);
 
-            return NoContent();
+            return CustomResponse(HttpStatusCode.NoContent);
         }
 
         [HttpDelete("{id:Guid}")]
@@ -81,7 +86,7 @@ namespace DevIO.Api.Controllers
 
             await _produtoService.Remover(produto.Id);
 
-            return NoContent();
+            return CustomResponse(HttpStatusCode.NoContent);
         }
     }
 }

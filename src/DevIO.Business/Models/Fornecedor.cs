@@ -26,6 +26,19 @@ namespace DevIO.Business.Models
             Produtos = produtos;
         }
 
+        public void Update(string nome,
+                          string documento,
+                          TipoFornecedor tipoFornecedor,
+                          bool ativo,
+                          Endereco endereco)
+        {
+            Nome = nome;
+            Documento = documento;
+            TipoFornecedor = tipoFornecedor;
+            Ativo = ativo;
+            Endereco = endereco;
+        }
+
         public Fornecedor() { }
 
     }
