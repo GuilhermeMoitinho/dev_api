@@ -10,5 +10,23 @@ namespace DevIO.Business.Models
         public bool Ativo { get; set; }
         public Endereco Endereco { get; set; }
         public IEnumerable<Produto> Produtos { get; set; }
+
+        public Fornecedor(string nome, 
+                          string documento, 
+                          TipoFornecedor tipoFornecedor, 
+                          bool ativo, 
+                          Endereco endereco, 
+                          IEnumerable<Produto> produtos)
+        {
+            Nome = nome;
+            Documento = documento;
+            TipoFornecedor = tipoFornecedor;
+            Ativo = ativo;
+            Endereco = endereco;
+            Produtos = produtos;
+        }
+
+        public Fornecedor() { }
+
     }
 }

@@ -15,3 +15,4 @@ C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\obj\Debug\net8.0\DevIO.Dat
 C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\obj\Debug\net8.0\DevIO.Data.csproj.Up2Date
 C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\bin\Debug\net8.0\DevIO.Data.runtimeconfig.json
 C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\obj\Debug\net8.0\DevIO.Data.genruntimeconfig.cache
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Data\obj\Debug\net8.0\DevIO.Data.sourcelink.json

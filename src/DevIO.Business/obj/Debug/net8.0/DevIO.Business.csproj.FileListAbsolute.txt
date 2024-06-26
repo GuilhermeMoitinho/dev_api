@@ -10,3 +10,4 @@ C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Business\obj\Debug\net8.0\DevIO
 C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Business\obj\Debug\net8.0\refint\DevIO.Business.dll
 C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Business\obj\Debug\net8.0\DevIO.Business.pdb
 C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Business\obj\Debug\net8.0\ref\DevIO.Business.dll
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Business\obj\Debug\net8.0\DevIO.Business.sourcelink.json

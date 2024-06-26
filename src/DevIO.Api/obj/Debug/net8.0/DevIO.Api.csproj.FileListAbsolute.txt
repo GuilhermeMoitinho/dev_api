@@ -255,3 +255,6 @@ C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Api\bin\Debug\net8.0\runtimes\w
 C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Api\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Api\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Api\obj\Debug\net8.0\DevIO.Api.sourcelink.json
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Api\bin\Debug\net8.0\AutoMapper.dll
+C:\estudos\tres_camadas\ApiTresCamadas\src\DevIO.Api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
