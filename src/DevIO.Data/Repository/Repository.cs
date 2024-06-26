@@ -44,7 +44,8 @@ namespace DevIO.Data.Repository
 
         public virtual async Task Remover(Guid id)
         {
-            DbSet.Remove(new T { Id = id});
+            var entity = await DbSet.FindAsync(id);
+            DbSet.Remove(entity);
         }
 
         public void Dispose()

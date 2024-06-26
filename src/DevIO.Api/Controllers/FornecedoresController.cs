@@ -54,6 +54,8 @@ namespace DevIO.Api.Controllers
 
             var fornecedor = _mapper.Map<Fornecedor>(fornecedorViewModel);
 
+            fornecedor.Id = Guid.NewGuid();
+
             await _fornecedorService.Adicionar(fornecedor);
 
             return CustomResponse(HttpStatusCode.Created, fornecedorViewModel);
@@ -76,7 +78,7 @@ namespace DevIO.Api.Controllers
                                          fornecedorViewModel.Documento,
                                          fornecedorViewModel.TipoFornecedor,
                                          fornecedorViewModel.Ativo,
-                                         fornecedorViewModel.Endereco);
+                                        _mapper.Map<Endereco>(fornecedorViewModel.Endereco));
 
             await _fornecedorService.Atualizar(fornecedorAtualizacao);
 

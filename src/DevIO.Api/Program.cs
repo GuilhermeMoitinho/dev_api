@@ -5,7 +5,10 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().ConfigureApiBehaviorOptions(op =>
+{
+    op.SuppressModelStateInvalidFilter = true;
+});
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseInMemoryDatabase(builder.Configuration.GetConnectionString("DefaultConnection"));

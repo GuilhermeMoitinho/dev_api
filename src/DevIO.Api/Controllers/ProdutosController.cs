@@ -52,6 +52,8 @@ namespace DevIO.Api.Controllers
 
             var produto = _mapper.Map<Produto>(produtoViewModel);
 
+            produto.Id = Guid.NewGuid();
+
             await _produtoService.Adicionar(produto);
 
             return CustomResponse(HttpStatusCode.Created, produtoViewModel);

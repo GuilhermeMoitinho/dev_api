@@ -4,7 +4,7 @@ namespace DevIO.Api.ViewModels
 {
     public class EnderecoViewModel
     {
-        public Guid Id { get; set; }
+        public Guid Id { get; private set; }
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         [StringLength(200, ErrorMessage = "O campo {0} precisa ter entre {2} e {1} caracteres", MinimumLength = 2)]
         public string Logradouro { get; set; }
@@ -24,6 +24,6 @@ namespace DevIO.Api.ViewModels
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         [StringLength(50, ErrorMessage = "O campo {0} precisa ter entre {2} e {1} caracteres", MinimumLength = 2)]
         public string Estado { get; set; }
-        public Guid FornecedorId { get; set; }
+        public Guid FornecedorId { get; private set; }
     }
 }

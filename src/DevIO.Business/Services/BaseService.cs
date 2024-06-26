@@ -39,6 +39,11 @@ namespace DevIO.Business.Services
 
             if (!validator.IsValid)
             {
+                var erros = validator.Errors.Select(x => x.ErrorMessage);
+                foreach(var erro in erros)
+                {
+                    Notificar(erro);
+                }
                 return false;
             }
 
