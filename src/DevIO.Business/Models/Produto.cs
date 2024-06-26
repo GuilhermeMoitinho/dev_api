@@ -29,6 +29,15 @@
         public Guid FornecedorId { get; set; }
         public Fornecedor Fornecedor { get; set; }
 
-
+        public void Update(string nome,
+                              string descricao,
+                              decimal valor, 
+                              bool ativo)
+        {
+            Nome = nome;
+            Descricao = descricao;
+            Valor = valor;
+            Ativo = ativo;  
+        }
     }
 }
